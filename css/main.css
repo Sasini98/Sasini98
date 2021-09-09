@@ -1,0 +1,413 @@
+body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="landscape"] {
+  width: 42cm;
+  height: 29.7cm;  
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="landscape"] {
+  width: 21cm;
+  height: 14.8cm;  
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+.main-row-div{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.my-img{
+  background-color: #8113de7a;
+  width: 100%;
+  height: 250px;
+}
+
+.left-main-div{
+  padding-left: 0px;
+  padding-right: 0px;
+  border-right: 1px solid #8113de;
+}
+
+.my-img img {
+  border-radius: 50%;
+  width: 200px;
+  margin-left: 35px;
+  margin-top: 28px;  
+}
+
+.my-contact, .my-education, .my-clubs, .my-sports, .my-mentoring, .my-name, .my-skills, .my-experience, .my-competitions{
+  padding: 10px;
+}
+
+.head-p{
+  font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+  font-weight: bold; 
+  color: #8113de;
+  margin-bottom: 1px;
+  font-size: 12px;
+}
+
+.contact-p{
+  color: black;
+  display:inline-block;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;  
+}
+
+.contact-icon-color, .clubs-p-sym{
+  color: #8113de;
+}
+
+.contact-icon-list{
+  margin-left: 14px;
+}
+
+.education-list, .clubs-list{
+  margin-left: 14px;
+}
+
+.education-p{
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;  
+}
+
+.education-p-rank{
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;
+  color: #8113de; 
+}
+
+.education-list-1{
+  margin-top: 5px;
+}
+
+.clubs-p-sym{
+  display:inline-block;
+  margin-bottom: 1px;
+}
+
+.clubs-p{
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;
+  display:inline-block; 
+}
+
+.hr-left{
+  color: #8113de;
+}
+
+.my-name-p{
+  color: #8113de;
+  font-size: 25px;
+  font-weight: normal; 
+  margin-left: 25px; 
+}
+
+.name-p-int{
+  font-size: 13px;
+  margin-bottom: 1px;
+}
+
+.name-class-1{
+  padding-right: 0px;
+}
+
+.name-class-2{
+  padding-left: 0px;
+}
+
+.contact-p-head{
+  color: black;
+  display:inline-block;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 1px;   
+}
+
+.head-hr-design{
+  margin-top: 0px;
+  margin-top: 0px;
+  border-top: 1px solid #8113de;
+}
+
+.experience-p-head{
+  color: black;
+  display:inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 1px; 
+  text-transform: uppercase;
+}
+
+.experience-skill-div{
+  background-color: #8113de;
+  border-radius: 5px 5px 5px 5px; 
+  margin-left: 2px;
+  height: 23px;
+}
+
+.exp-p1, .exp-p2, .exp-p3, .exp-p4, .exp-p5, .exp--p1, .exp--p2, .exp--p3, .exp--p4, .exp--p5{
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+.exp-p1{
+  margin-left: 3px;
+}
+
+.exp-p2{
+  margin-left: 11px;
+}
+
+.exp-p3{
+  margin-left: 2px;
+}
+
+.exp-p4{
+  margin-left: 9px;
+}
+
+.exp-p5{
+  margin-left: 10px;
+}
+
+.exp--p1{
+  margin-left: 3px;
+}
+
+.exp--p2{
+  margin-left: -3px;
+}
+
+.exp--p3{
+  margin-left: 2px;
+}
+
+.exp--p4{
+  margin-left: -6px;
+}
+
+.exp--p5{
+  margin-left: 8px;
+}
+
+.exp--p6{
+  margin-left: -1px;
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.exp-p-details{
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;
+  text-align: justify;
+}
+
+.computer-trainee-div{
+  margin-left: -3px;
+}
+
+.main-row-div-pg1{
+  padding: 0 20px 0 20px;
+}
+
+.history-tl-container{
+  font-family: "Roboto",sans-serif;
+  margin:auto;
+  display:block;
+  position:relative;
+}
+.history-tl-container ul.tl{
+    margin:4px 0;
+    padding:0;
+    display:inline-block;
+    width: 100%;
+}
+
+.history-tl-container ul.tl li{
+    list-style: none;
+    margin:auto;
+    margin-left:170px;
+    min-height:50px;
+    /*background: rgba(255,255,0,0.1);*/
+    border-left:1px dashed #8113de;
+    padding:0 0 8px 10px;
+    position:relative;
+}
+
+.history-tl-container-project ul.tl li{
+    list-style: none;
+    margin:auto;
+    margin-left:70px;
+    min-height:50px;
+    /*background: rgba(255,255,0,0.1);*/
+    border-left:1px dashed #8113de;
+    padding:0 0 8px 10px;
+    position:relative;
+}
+
+.history-tl-container ul.tl li:last-child{ border-left:0;}
+.history-tl-container ul.tl li::before{
+    position: absolute;
+    left: -11px;
+    top: -5px;
+    content: " ";
+    border: 8px solid rgba(255, 255, 255, 0.74);
+    border-radius: 500%;
+    background: #8113de;
+    height: 20px;
+    width: 20px;
+    transition: all 500ms ease-in-out;
+
+}
+
+ul.tl li .item-title{
+}
+ul.tl li .item-detail{
+    color:rgba(0,0,0,0.5);
+    font-size:12px;
+}
+ul.tl li .timestamp{
+    color: #8D8D8D;
+    position: absolute;
+    width:100px;
+    left: -25%;
+    text-align: right;
+    font-size: 12px;
+}
+
+.competition-skill-div{
+  background-color: #8113de;
+  border-radius: 5px 5px 5px 5px; 
+  margin-left: 2px;
+  height: 23px; 
+}
+
+.comp-p1, .comp-p2, .comp-p3, .comp-p4, .comp-p5
+{
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+.p1{
+  margin-left: -3px;
+}
+
+.p2{
+  margin-left: -3px;
+}
+
+.p3{
+  margin-left: 1px;
+}
+
+.p4{
+  margin-left: -2px;
+}
+
+.p7{
+  margin-left: -3px;
+}
+
+.p8{
+  margin-left: -2px;
+}
+
+.p9{
+  margin-left: 1px;
+}
+
+.p5{
+  margin-left: 1px;
+}
+
+.p6{
+  margin-left: -2px;
+}
+
+.p10{
+  margin-left: -3px;
+}
+
+.p11{
+  margin-left: -2px;
+}
+
+.p12{
+  margin-left: -2px;
+}
+
+.p13{
+  margin-left: -6px;
+}
+
+.p14{
+  margin-left: -4px;
+}
+
+.p15{
+  margin-left: 7px;
+}
+
+.p16{
+  margin-left: -11px;
+}
+
+.p17{
+  margin-left: 0px;
+}
+
+.competitipn-p-head{
+  color: black;
+  display:inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 1px;   
+}
+
+a{
+  font-size: 13px;
+}
